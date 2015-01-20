@@ -2,12 +2,15 @@ from jenkinsapi import api, jenkins, job
 import string
 import xlwt
 wbk = xlwt.Workbook()
-j = jenkins.Jenkins('http://10.223.240.215','username','password')
+username="talluri"
+password='vmops.com'
+j = jenkins.Jenkins('http://10.223.240.215',username,password)
 #jobs = ['Adv_XS_BVT_Report', 'Adv_XS_Regression_Report', 'Basic_XS_BVT_Report', 'Basic_XS_Regression_Report']
     #, 'Eip_elb_BVT_Report', 'Eip_elb_XS_Regression_Report']
 #jobs = ['Adv_XS_BVT_Report','Adv_VMware_BVT_Report', 'Adv_KVM_BVT_Report','Basic_KVM_BVT_Report', 'Basic_XS_BVT_Report']
 #jobs = ['Adv_Simulator_BVT_Report']
-jobs = ['Adv_Simulator_Regression_Report']
+#jobs = ['Adv_BVT_Report', 'Adv_Regression_Report']
+jobs = [ 'Adv_Regression_Report']
 for job in jobs:
     jobclient = j.get_job(job)
 
@@ -15,10 +18,12 @@ for job in jobs:
     # indexing is zero based, row then column
     sheet.write(0,0,'test case')
     sheet.write(0,1,'status')
-    sheet.write(0,2,'Error Description')
-    sheet.write(0,3,'Comments')
-    sheet.write(0,4,'Bug')
-    sheet.write(0,5,'Bug_type')
+    sheet.write(0,2,'Duration')
+    sheet.write(0,3,'Error Description')
+    sheet.write(0,4,'Comments')
+    sheet.write(0,5,'Bug')
+    sheet.write(0,6,'Bug_type')
+
     row=1
 
 
@@ -71,10 +76,13 @@ for job in jobs:
             errorStr = case['errorDetails']
         print "test case:{0}, status: {1}, error: {2}".format(case['name'], case['status'], errorStr)
         col = 0
-        while col <= 2:
+        while col <= 3:
             if col == 0:
                 print "name"
                 sheet.write(row, col, case['name'])
+            elif col == 2:
+                print "duration"
+                sheet.write(row, col, case['duration'])
             elif col == 1:
                 print "status"
                 sheet.write(row, col,case['status'])
@@ -93,7 +101,7 @@ for job in jobs:
     f.close()
     g.close()
 #wbk.save('/Users/talluri/test_bvt.xls')
-wbk.save('/Users/talluri/test_sim.xls')
+wbk.save('/Users/talluri/test_final.xls')
 print count
 
 print failed_tests

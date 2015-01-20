@@ -1,0 +1,38 @@
+class Person:
+    testVar = "kanti"
+    @classmethod
+    def sT(cls):
+        cls.clsVar = "nice"
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        #self.person
+    # def __getattr__(self, item):
+    #      return 0
+    def disp(self):
+        '''
+        i am disp
+        '''
+        self.new = "test"
+        print self.name
+    # def kisp(self):
+    #     print self.age
+
+p = Person("parent", 33)
+p.disp()
+# print dir(p)
+# print str(getattr(p, "disp").__doc__)
+# print p.testVar
+# print p.name
+# # p.name = "sanjeev"
+# # p.testVar = "newkanti"
+# #p.pest(age)
+# print p.testVar
+# print p.name
+p.y = "test"
+p.z = []
+
+print p.__dict__.keys()
+print Person.__dict__.keys()
+print p.disp.__doc__
+print Person("sad", 44).__dict__.keys()
