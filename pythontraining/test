@@ -1,0 +1,16 @@
+__author__ = 'talluri'
+Monkey <eyes: 2, legs: 2, hands: 2>
+Squirrel <eyes: 2, legs: 4>
+Pigeon <fly: True, eyes: 2, legs: 2, wings: 2>
+Eagle <fly: True, eyes: 2, legs: 2, wings: 2>
+None
+5
+False
+True
+True
+False
+None
+None
+Monkey <eyes: 2, legs: 2, hands: 2>
+Not empty
+Monkey <eyes: 2, legs: 2, hands: 2>
