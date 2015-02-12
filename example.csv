@@ -1,0 +1,793 @@
+Test Case, Status, error
+test_01_VRServiceFailureAlerting, FAILED, Check DB Query result set   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=VirtualRouter_aler
+test_01_create_account, PASSED, None
+test_01_add_vm_to_subdomain, PASSED, None
+test_DeleteDomain, PASSED, None
+test_forceDeleteDomain, PASSED, None
+test_01_non_root_admin_Privileges, PASSED, None
+test_01_user_remove_VM_running, PASSED, None
+test_01_service_offering_hierarchy, PASSED, None
+test_01_service_offering_siblings, PASSED, None
+test_01_template_hierarchy, PASSED, None
+test_updateAdminDetails, PASSED, None
+test_updateDomainAdminDetails, PASSED, None
+test_updateUserDetails, PASSED, None
+test_LoginApiDomain, PASSED, None
+test_LoginApiUuidResponse, PASSED, None
+ContextSuite context=TestAddNetworkToVirtualMachine>:setup, SKIPPED, None
+ContextSuite context=TestFailureScenariosAddNetworkToVM>:setup, SKIPPED, None
+ContextSuite context=TestFailureScenariosRemoveNicFromVM>:setup, SKIPPED, None
+ContextSuite context=TestFailureScenariosUpdateVirtualMachineNIC>:setup, SKIPPED, None
+ContextSuite context=TestRemoveNetworkFromVirtualMachine>:setup, SKIPPED, None
+ContextSuite context=TestUpdateVirtualMachineNIC>:setup, SKIPPED, None
+runTest, FAILED, sequence item 0: expected string, NoneType found   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=advancedsg_network
+test_01_deploy_vm_another_user, PASSED, None
+test_02_create_aff_grp_user, PASSED, None
+test_03_list_aff_grp_all_users, PASSED, None
+test_04_list_all_admin_aff_grp, PASSED, None
+test_05_list_all_users_aff_grp, PASSED, None
+test_06_list_all_users_aff_grp_by_id, PASSED, None
+test_07_delete_aff_grp_of_other_user, PASSED, None
+test_01_admin_create_aff_grp, PASSED, None
+test_02_doadmin_create_aff_grp, PASSED, None
+test_03_user_create_aff_grp, PASSED, None
+test_04_user_create_aff_grp_existing_name, PASSED, None
+test_05_create_aff_grp_same_name_diff_acc, PASSED, None
+test_06_create_aff_grp_nonexisting_type, PASSED, None
+test_01_delete_aff_grp_by_name, PASSED, None
+test_02_delete_aff_grp_for_acc, PASSED, None
+test_03_delete_aff_grp_with_vms, FIXED, None
+test_05_delete_aff_grp_id, PASSED, None
+test_06_delete_aff_grp_name, PASSED, None
+test_08_delete_aff_grp_by_id, PASSED, None
+test_09_delete_aff_grp_root_admin, PASSED, None
+test_01_deploy_vm_without_aff_grp, FIXED, None
+test_02_deploy_vm_by_aff_grp_name, FIXED, None
+test_03_deploy_vm_by_aff_grp_id, FIXED, None
+test_04_deploy_vm_anti_affinity_group, FIXED, None
+test_05_deploy_vm_by_id, FIXED, None
+test_06_deploy_vm_aff_grp_of_other_user_by_name, PASSED, None
+test_07_deploy_vm_aff_grp_of_other_user_by_id, PASSED, None
+test_08_deploy_vm_multiple_aff_grps, FIXED, None
+test_09_deploy_vm_multiple_aff_grps, FIXED, None
+test_10_deploy_vm_by_aff_grp_name_and_id, PASSED, None
+test_01_list_aff_grps_for_vm, FIXED, None
+test_02_list_multiple_aff_grps_for_vm, FIXED, None
+test_03_list_aff_grps_by_id, PASSED, None
+test_04_list_aff_grps_by_name, PASSED, None
+test_05_list_aff_grps_by_non_existing_id, PASSED, None
+test_06_list_aff_grps_by_non_existing_name, PASSED, None
+test_07_list_all_vms_in_aff_grp, PASSED, None
+test_01_update_aff_grp_by_ids, PASSED, None
+test_02_update_aff_grp_by_names, PASSED, None
+test_03_update_aff_grp_for_vm_with_no_aff_grp, PASSED, None
+test_04_update_aff_grp_remove_all, SKIPPED, None
+test_05_update_aff_grp_on_running_vm, PASSED, None
+test_01_zones, PASSED, None
+test_02_pods, PASSED, None
+test_03_clusters, PASSED, None
+test_04_hosts, PASSED, None
+test_05_storage_pools, PASSED, None
+test_06_secondary_storage, PASSED, None
+test_01_move_across_different_domains, PASSED, None
+test_02_move_across_subdomains, PASSED, None
+test_03_move_from_domain_to_subdomain, PASSED, None
+test_04_move_from_domain_to_sub_of_subdomain, PASSED, None
+test_05_move_to_domain_from_sub_of_subdomain, PASSED, None
+test_06_move_to_domain_from_subdomain, PASSED, None
+test_07_move_across_subdomain, PASSED, None
+test_08_move_across_subdomain_network_create, PASSED, None
+test_09_move_across_subdomain, PASSED, None
+test_10_move_across_subdomain_vm_running, PASSED, None
+test_11_move_across_subdomain_vm_pfrule, PASSED, None
+test_12_move_across_subdomain_vm_volumes, PASSED, None
+test_13_move_across_subdomain_vm_snapshot, PASSED, None
+test_14_move_across_subdomain_vm_project, PASSED, None
+test_15_move_across_subdomain_account_limit, PASSED, None
+test_16_move_across_subdomain_volume_and_account_limit, PASSED, None
+test_01_deploy_instance_with_is_volatile_offering, PASSED, None
+test_02_reboot_instance_with_is_volatile_offering, PASSED, None
+test_03_restore_vm_with_new_template, PASSED, None
+test_04_reoccuring_snapshot_rules, FAILED, Failed to get snapshots list   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=base_image_updatio
+test_01_firewall_rules_port_fw, PASSED, None
+test_01_restart_network_cleanup, FIXED, None
+test_01_list_routers_admin, PASSED, None
+test_01_create_template, PASSED, None
+test_01_check_template_size, PASSED, None
+test_02_check_size_snapshotTemplate, FAILED, Execute cmd: listsnapshots failed, due to: errorCode: 431, errorText:Unable to execute API command listsnapshots due to invalid value. Invalid parameter id value=4d4f5979-9d09-45c3-9a94-07a3725b7a60 due to incorrect long value format, or entity does not exist or due to incorrect parameter annotation for the field in api cmd class.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=blocker_bugs
+test_03_reuse_template_name, FAILED, Execute cmd: listsnapshots failed, due to: errorCode: 431, errorText:Unable to execute API command listsnapshots due to invalid value. Invalid parameter id value=592084d9-1b88-42b5-9bab-62ea58e20ab8 due to incorrect long value format, or entity does not exist or due to incorrect parameter annotation for the field in api cmd class.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=blocker_bugs
+test_01_multiple_core_vm_start_stop_instance, PASSED, None
+test_02_multiple_core_vm_migrate_instance, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:02:18+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'0c6d7131-8008-4bf8-a781-8bd7859afaa2', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-186-225-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=cpu_domain_limits
+test_03_multiple_core_vm_delete_instance, PASSED, None
+test_04_deploy_multiple_vm_with_multiple_core, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:13:54+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'3ac085da-6b23-4894-8d12-e557825e12b1', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-202-249-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=cpu_domain_limits
+test_01_multiple_child_domains, PASSED, None
+test_01_multiplecore_start_stop_instance, PASSED, None
+test_02_multiplecore_migrate_instance, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T07:38:30+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'5d22ce13-a85d-4301-81e2-be0148754d23', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-166-196-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=cpu_limits
+test_03_multiplecore_delete_instance, PASSED, None
+test_04_deploy_multiple_vm_with_multiple_cpus, FIXED, None
+test_01_stop_start_instance, PASSED, None
+test_02_migrate_instance, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T07:52:51+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'49c27d73-6460-4c76-ab23-9c352e943dfc', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-172-213-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=cpu_limits
+test_03_delete_instance, PASSED, None
+test_04_deploy_multiple_vm_with_multiple_cpus, SKIPPED, None
+test_01_deploy_vm_domain_limit_reached, FIXED, None
+test_02_deploy_vm_account_limit_reached, FIXED, None
+test_03_deploy_vm_project_limit_reached, FIXED, None
+test_04_deployVm__account_limit_reached, PASSED, None
+test_01_project_counts_start_stop_instance, PASSED, None
+test_02_project_counts_migrate_instance, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:10:40+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'60a954af-9c21-4532-9ae1-2b4378566fb0', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-200-241-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=cpu_project_limits
+test_03_project_counts_delete_instance, PASSED, None
+test_01_custom_hostname_instancename_false, SKIPPED, None
+ContextSuite context=TestInstanceNameFlagTrue>:setup, SKIPPED, None
+test_01_dedicate_guest_vlan_range_root_domain, PASSED, None
+test_02_dedicate_guest_vlan_range_user_domain, PASSED, None
+test_03_multiple_guest_netwoks, PASSED, None
+test_04_dedicate_guest_vlan_in_project, FAILED, Vlan of the network should be from the dedicated range   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dedicate_guest_vla
+test_05_dedicate_range_different_accounts, PASSED, None
+test_07_extend_vlan_range, PASSED, None
+test_01_delete_dedicated_vlan_range, PASSED, None
+test_02_delete_dedicated_vlan_range_vlan_in_use, PASSED, None
+test_03_delete_account, PASSED, None
+test_04_release_range_no_vlan_in_use, PASSED, None
+test_05_release_range_vlan_in_use, FAILED, int() argument must be a string or a number, not 'NoneType'   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dedicate_guest_vla
+test_01_dedicate_wrong_vlan_range, PASSED, None
+test_02_dedicate_vlan_range_invalid_account, PASSED, None
+test_03_dedicate_already_dedicated_range, PASSED, None
+ContextSuite context=TestvGPUWindowsVm>:setup, SKIPPED, None
+test_deployvm_userdata_post, PASSED, None
+test_max_account_cpus_deploy_VM_1_ADMIN_ACCOUNT, PASSED, None
+test_max_account_cpus_deploy_VM_2_USER_ACCOUNT, PASSED, None
+test_max_account_cpus_scale_VM_1_ADMIN_ACCOUNT, PASSED, None
+test_max_account_cpus_scale_VM_2_USER_ACCOUNT, PASSED, None
+test_max_account_memory_deploy_VM_1_ADMIN_ACCOUNT, PASSED, None
+test_max_account_memory_deploy_VM_2_USER_ACCOUNT, PASSED, None
+test_max_account_memory_scale_VM_1_ADMIN_ACCOUNT, PASSED, None
+test_max_account_memory_scale_VM_2_USER_ACCOUNT, PASSED, None
+test_deploy_VM_with_affinity_group_1_ADMIN_ACCOUNT, PASSED, None
+test_deploy_VM_with_affinity_group_2_USER_ACCOUNT, PASSED, None
+test_check_vm_stats_1_ADMIN_ACCOUNT, PASSED, None
+test_check_vm_stats_2_USER_ACCOUNT, PASSED, None
+test_create_dynamic_compute_offering, PASSED, None
+test_create_dynamic_compute_offering_no_cpunumber, PASSED, None
+test_create_dynamic_compute_offering_no_cpuspeed, PASSED, None
+test_create_dynamic_compute_offering_no_memory, PASSED, None
+test_create_normal_compute_offering, PASSED, None
+test_deploy_virtual_machines_dynamic_offering_1_ADMIN_ACCOUNT, PASSED, None
+test_deploy_virtual_machines_dynamic_offering_2_USER_ACCOUNT, PASSED, None
+test_deploy_virtual_machines_static_offering_1_ADMIN_ACCOUNT, PASSED, None
+test_deploy_virtual_machines_static_offering_2_USER_ACCOUNT, PASSED, None
+test_change_so_running_vm_dynamic_to_dynamic_1_ADMIN_ACCOUNT, FAILED, Failure while changing service offering: Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:56:27+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.ScaleVMCmd', userid : u'ec124eca-48ee-4d90-a995-81c10da6e577', jobstatus : 2, jobid : u'104c007c-91ed-4813-8b3d-d1db6e7b8b7f', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'This operation not permitted for this hypervisor of the vm'}, accountid : u'c3115f01-606e-458c-80cd-c0a4fb49b66f'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dynamic_compute_of
+test_change_so_running_vm_dynamic_to_dynamic_2_USER_ACCOUNT, FAILED, Failure while changing service offering: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:00:25+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.ScaleVMCmd', userid : u'4110ae5c-6bf6-4a32-a08c-fbac4483d86b', jobstatus : 2, jobid : u'20418403-0c24-434d-86e0-9f8eb976a172', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'This operation not permitted for this hypervisor of the vm'}, accountid : u'ccf0d517-ca9b-4652-b22d-b44c310497ef'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dynamic_compute_of
+test_change_so_running_vm_dynamic_to_static_1_ADMIN_ACCOUNT, FAILED, Failure while changing service offering: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:04:13+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.ScaleVMCmd', userid : u'2271e651-8ffd-4ce5-a606-4c7ea0a5f54b', jobstatus : 2, jobid : u'0ff70d18-0f66-4fdf-9bcc-e32f6398bdcf', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'This operation not permitted for this hypervisor of the vm'}, accountid : u'75d05e30-9eec-42d5-a702-d3e929bc1a8b'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dynamic_compute_of
+test_change_so_running_vm_dynamic_to_static_2_USER_ACCOUNT, FAILED, Failure while changing service offering: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:08:31+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.ScaleVMCmd', userid : u'247b1ee9-b205-4b83-874e-a41702afc359', jobstatus : 2, jobid : u'7da660f6-8488-4dd0-ad61-28b158f00a9f', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'This operation not permitted for this hypervisor of the vm'}, accountid : u'1658be58-dfa4-4678-8aba-657fe817200d'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dynamic_compute_of
+test_change_so_running_vm_static_to_dynamic_1_ADMIN_ACCOUNT, FAILED, Failure while changing service offering: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:11:58+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.ScaleVMCmd', userid : u'e3f7ebba-b05b-4de5-a238-1ee388d83cbf', jobstatus : 2, jobid : u'2f5f434c-024a-487f-99a5-fa7f2fd41017', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'This operation not permitted for this hypervisor of the vm'}, accountid : u'a37a2634-baad-47f8-9a7c-4bc89407c417'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dynamic_compute_of
+test_change_so_running_vm_static_to_dynamic_2_USER_ACCOUNT, FAILED, Failure while changing service offering: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:15:41+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.ScaleVMCmd', userid : u'700e8835-6101-42e9-b947-ea4d482c66b8', jobstatus : 2, jobid : u'01c59772-5e70-4b42-9159-18f37b988ea1', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'This operation not permitted for this hypervisor of the vm'}, accountid : u'c69c4b84-fb64-47ad-883d-9e6da875bb10'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dynamic_compute_of
+test_change_so_running_vm_static_to_static_1_ADMIN_ACCOUNT, FAILED, Failure while changing service offering: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:18:48+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.ScaleVMCmd', userid : u'e10b6696-5da8-4256-ad74-22dbf283cc39', jobstatus : 2, jobid : u'e189c481-f384-4615-b348-adf80cc950c6', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'This operation not permitted for this hypervisor of the vm'}, accountid : u'17961ea7-9476-4949-9bde-966e3005ef25'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dynamic_compute_of
+test_change_so_running_vm_static_to_static_2_USER_ACCOUNT, FAILED, Failure while changing service offering: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:22:31+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.ScaleVMCmd', userid : u'64a15154-7c80-4312-ba9e-c6f83144e3f6', jobstatus : 2, jobid : u'fbde1147-354d-49b4-88c7-1b2674afb2f9', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'This operation not permitted for this hypervisor of the vm'}, accountid : u'1e68a74f-1f76-4cc7-a4de-80a33fba8262'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=dynamic_compute_of
+test_change_so_stopped_vm_dynamic_to_dynamic_1_ADMIN_ACCOUNT, PASSED, None
+test_change_so_stopped_vm_dynamic_to_dynamic_2_USER_ACCOUNT, PASSED, None
+test_change_so_stopped_vm_dynamic_to_static_1_ADMIN_ACCOUNT, PASSED, None
+test_change_so_stopped_vm_dynamic_to_static_2_USER_ACCOUNT, PASSED, None
+test_change_so_stopped_vm_static_to_dynamic_1_ADMIN_ACCOUNT, PASSED, None
+test_change_so_stopped_vm_static_to_dynamic_2_USER_ACCOUNT, PASSED, None
+test_change_so_stopped_vm_static_to_static_1_ADMIN_ACCOUNT, PASSED, None
+test_change_so_stopped_vm_static_to_static_2_USER_ACCOUNT, PASSED, None
+test_01_1_egress_fr1, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_01_egress_fr1, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_02_1_egress_fr2, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_02_egress_fr2, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_03_1_egress_fr3, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_03_egress_fr3, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_04_1_egress_fr4, PASSED, None
+test_04_egress_fr4, PASSED, None
+test_05_1_egress_fr5, SKIPPED, None
+test_05_egress_fr5, SKIPPED, None
+test_06_1_egress_fr6, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_06_egress_fr6, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_07_1_egress_fr7, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_07_egress_fr7, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_08_1_egress_fr8, SKIPPED, None
+test_08_egress_fr8, SKIPPED, None
+test_09_1_egress_fr9, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_09_egress_fr9, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_10_1_egress_fr10, PASSED, None
+test_10_egress_fr10, PASSED, None
+test_11_1_egress_fr11, PASSED, None
+test_11_egress_fr11, PASSED, None
+test_12_1_egress_fr12, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_12_egress_fr12, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_13_1_egress_fr13, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_13_egress_fr13, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=egress_fw_rules
+test_13_attach_detach_iso, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:53:53+0000', cmd : u'org.apache.cloudstack.api.command.user.iso.AttachIsoCmd', userid : u'a77e923f-0c68-4123-8ddd-06f16bd34b87', jobstatus : 2, jobid : u'5d950283-8faa-4ea1-bb6b-8a880955b1c1', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Cannot attach Xenserver PV drivers to incompatible hypervisor Hyperv'}, accountid : u'a9bedd82-bf47-4685-b504-ac4de71bcdd7'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_instan
+test_14_vm_snapshot_pagination, FAILED, Execute cmd: createvmsnapshot failed, due to: errorCode: 530, errorText:Internal error executing command, please contact your system administrator   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_instan
+test_15_revert_vm_to_snapshot, FAILED, Execute cmd: createvmsnapshot failed, due to: errorCode: 530, errorText:Internal error executing command, please contact your system administrator   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_instan
+test_16_list_vm_volumes_pagination, PASSED, None
+test_17_running_vm_scaleup, PASSED, None
+test_18_stopped_vm_change_service, PASSED, None
+test_19_create_reset_vm_sshkey, PASSED, None
+test_20_update_vm_displayname_group, PASSED, None
+test_21_restore_vm, PASSED, None
+test_22_deploy_vm_multiple_networks, PASSED, None
+test_24_deploy_vm_with_static_ip_ES1662, PASSED, None
+test_25_ip_reallocation_ES1377, PASSED, None
+test_01_list_instances_pagination, PASSED, None
+test_02_list_Running_vm, PASSED, None
+test_03_list_Stopped_vm, PASSED, None
+test_04_list_Destroyed_vm, PASSED, None
+test_05_list_vm_by_id, PASSED, None
+test_06_list_vm_by_name, PASSED, None
+test_07_list_vm_by_name_state, PASSED, None
+test_08_list_vm_by_zone, PASSED, None
+test_09_list_vm_by_zone_name, PASSED, None
+test_10_list_vm_by_zone_name_state, PASSED, None
+test_11_register_reset_vm_sshkey, PASSED, None
+test_12_vm_nics, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T06:25:57+0000', cmd : u'org.apache.cloudstack.api.command.user.vm.AddNicToVMCmd', userid : u'139d7cd3-6dc3-4afe-9543-d155814995ca', jobstatus : 2, jobid : u'726c9b05-d5c1-4d52-8fda-4c485a11bbfb', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Unexpected job execution result'}, accountid : u'2ae7ea2e-1d48-4aaa-8d36-abfc21f0a05e'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_instan
+test_01_list_ipaddresses_pagination, PASSED, None
+test_02_list_ipaddresses_byid, PASSED, None
+test_03_associate_ipaddress_for_vpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:18:46+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'05512f3d-3e82-4c4e-a4a9-942045b1f478', jobstatus : 2, jobid : u'c00a1b73-13da-4e91-9375-5047dc694475', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'bcb52c88-9545-41b8-baa5-11757e3523c0'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_ipaddr
+test_04_create_delete_lbrule_fornonvpc, PASSED, None
+test_05_create_delete_lbrule_forvpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:19:19+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'ee02e1f8-bcc7-41fb-b4c7-dca893a6a004', jobstatus : 2, jobid : u'd0949868-b0aa-4117-9b8b-e0ca1fbc3825', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'1e86232e-b972-4cd5-b18c-ab9935f46973'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_ipaddr
+test_06_update_lbrule_name, PASSED, None
+test_07_assign_remove_lbrule_toinstance, PASSED, None
+test_08_list_create_delete_lbsticky_policy, PASSED, None
+test_09_create_delete_portforwarding_fornonvpc, PASSED, None
+test_10_create_delete_portforwarding_forvpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:28:22+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'3e0bd346-4dea-4087-8cb2-ae964dcd9404', jobstatus : 2, jobid : u'f3f2a95e-c4bc-41f9-81f9-7f8a76314ca2', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'4c8765f5-b128-4db4-929f-e893395c56cf'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_ipaddr
+test_11_create_delete_firewallrule, PASSED, None
+test_12_create_delete_remoteaccessvpn, PASSED, None
+test_13_add_remove_vpnusers, PASSED, None
+test_14_enable_disable_staticnat_fornonvpc, PASSED, None
+test_15_enable_disable_staticnat_forvpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:37:09+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'43dc96b4-9cfc-44f0-81e1-16abef38d36f', jobstatus : 2, jobid : u'536f32f4-6443-46d5-8a6a-e5e03024f4d4', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'1a42251a-581b-4bd2-9695-f1226c0f34c7'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_ipaddr
+test_16_create_delete_ipforwardingrule, PASSED, None
+test_17_create_update_autoscalepolicy, PASSED, None
+test_18_create_update_autoscaleprofiles, PASSED, None
+test_19_create_update_autoscalevmgroup, PASSED, None
+test_01_list_isos_pagination, PASSED, None
+test_02_download_iso, PASSED, None
+test_03_edit_iso_details, PASSED, None
+test_04_copy_iso, SKIPPED, None
+test_01_list_networks_pagination, PASSED, None
+test_02_create_network_without_sourcenat, PASSED, None
+test_03_list_vpc_pagination, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:11:41+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'4e83453a-6063-4b6a-87b2-c21362eb79af', jobstatus : 2, jobid : u'afb067d0-8948-4def-b4ae-0f80952db518', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'fb76b5bb-c98c-44ac-81f5-afea3fe541cc'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_04_create_vpc_with_networkdomain, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:11:46+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'4e83453a-6063-4b6a-87b2-c21362eb79af', jobstatus : 2, jobid : u'a20ab82b-17fc-4346-ba64-ec39612c49e2', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'fb76b5bb-c98c-44ac-81f5-afea3fe541cc'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_05_list_network_offerings_with_and_without_vpc, PASSED, None
+test_06_create_network_in_vpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:11:54+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'4e83453a-6063-4b6a-87b2-c21362eb79af', jobstatus : 2, jobid : u'755d7d46-6d44-4092-a29c-b81073ba6366', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'fb76b5bb-c98c-44ac-81f5-afea3fe541cc'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_07_create_delete_network, PASSED, None
+test_08_update_network, PASSED, None
+test_09_list_virtual_machines_single_network, PASSED, None
+test_10_list_networks_in_vpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:18:30+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'4e83453a-6063-4b6a-87b2-c21362eb79af', jobstatus : 2, jobid : u'60563d44-80f5-49e8-b4b6-7b97b229934b', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'fb76b5bb-c98c-44ac-81f5-afea3fe541cc'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_11_update_vpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:18:35+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'4e83453a-6063-4b6a-87b2-c21362eb79af', jobstatus : 2, jobid : u'381a086b-de9a-455b-a547-daa4ac3a8787', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'fb76b5bb-c98c-44ac-81f5-afea3fe541cc'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_12_list_create_delete_networkACL, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:18:40+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'4e83453a-6063-4b6a-87b2-c21362eb79af', jobstatus : 2, jobid : u'451e973f-dc91-4470-a05c-77c37420af65', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'fb76b5bb-c98c-44ac-81f5-afea3fe541cc'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_13_list_vpc_byid, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:19:07+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'd60b1f50-2904-406d-8ee0-13774e4908ab', jobstatus : 2, jobid : u'7ecfc13a-20da-4bfc-a572-c611063f7602', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'f26f9430-b6f5-4f65-bddd-b7602029576d'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_14_list_public_ipadress_by_associated_networkid, PASSED, None
+test_15_list_privategateway_byvpcid, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:19:23+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'd60b1f50-2904-406d-8ee0-13774e4908ab', jobstatus : 2, jobid : u'4d3a57a5-faef-457d-93ee-930a8bafbaa5', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'f26f9430-b6f5-4f65-bddd-b7602029576d'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_16_create_list_delete_egressfirewallrule_bynetworkid, PASSED, None
+test_17_restart_vpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:19:47+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'd60b1f50-2904-406d-8ee0-13774e4908ab', jobstatus : 2, jobid : u'30a2d8c8-3ac5-4765-bad2-378b9c05aaf4', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'f26f9430-b6f5-4f65-bddd-b7602029576d'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_18_create_list_vpn_gateway, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:19:52+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'd60b1f50-2904-406d-8ee0-13774e4908ab', jobstatus : 2, jobid : u'7bf7b95c-579d-4fce-87e8-7819514c335e', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'f26f9430-b6f5-4f65-bddd-b7602029576d'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_19_create_list_reset_delete_vpnconnections, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:19:57+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'd60b1f50-2904-406d-8ee0-13774e4908ab', jobstatus : 2, jobid : u'741075ea-212a-490e-9b11-ce5175e02de9', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'f26f9430-b6f5-4f65-bddd-b7602029576d'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_20_list_capabilities, PASSED, None
+test_21_listNetworkacls_by_privategateway_aclid, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:20:02+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'd60b1f50-2904-406d-8ee0-13774e4908ab', jobstatus : 2, jobid : u'a3fb1563-88be-4216-b5db-ceb226dce719', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'f26f9430-b6f5-4f65-bddd-b7602029576d'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_networ
+test_01_list_volume_snapshots_pagination, REGRESSION, Failed to create pagesize + 1 number of Volume snapshots   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_snapsh
+test_01_list_volume_snapshots_pagination, REGRESSION, Execute cmd: deletesnapshot failed, due to: errorCode: 431, errorText:Unable to execute API command deletesnapshot due to invalid value. Invalid parameter id value=b640262c-6d9c-46c4-aa3d-6ce7a92761ad due to incorrect long value format, or entity does not exist or due to incorrect parameter annotation for the field in api cmd class.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_snapsh
+test_02_list_volume_snapshots_byid, REGRESSION, Volume snapshots exists for newly created user   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_snapsh
+test_03_list_vm_snapshots_pagination, FAILED, Execute cmd: createvmsnapshot failed, due to: errorCode: 530, errorText:Internal error executing command, please contact your system administrator   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_snapsh
+test_04_list_vm_snapshots_byid, FAILED, Execute cmd: createvmsnapshot failed, due to: errorCode: 530, errorText:Internal error executing command, please contact your system administrator   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_snapsh
+test_01_list_templates_pagination, PASSED, None
+test_02_download_template, REGRESSION, Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:34:10+0000', jobresult : {errorcode : 530, errortext : u'Unable to create a link for entity at template/tmpl/239/212/4716555e-23a8-3f0e-95fa-ca0bcaf47678.vhd on ssvm,No remote endpoint to send command, check if host or ssvm is down?'}, cmd : u'org.apache.cloudstack.api.command.user.template.ExtractTemplateCmd', userid : u'05b23347-deae-40cd-b738-8ac12ddb9635', jobstatus : 2, jobid : u'af4aca0b-d4a3-4217-84c0-b04ed03555e7', jobresultcode : 530, jobinstanceid : u'f5a9051d-4eb6-4b27-b5a6-ed148d50d845', jobresulttype : u'object', jobinstancetype : u'Template', accountid : u'45b6af89-dab8-4ccd-96fb-5f6796461c85'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_templa
+test_02_download_template, REGRESSION, Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:34:15+0000', jobresult : {errorcode : 530, errortext : u'Failed to delete template'}, cmd : u'org.apache.cloudstack.api.command.user.template.DeleteTemplateCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'a9b0f7ed-8cef-42b9-b73d-0c0e16dd5e25', jobresultcode : 530, jobinstanceid : u'f5a9051d-4eb6-4b27-b5a6-ed148d50d845', jobresulttype : u'object', jobinstancetype : u'Template', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_templa
+test_03_edit_template_details, REGRESSION, Templates listed for newly created User   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_templa
+test_04_copy_template, SKIPPED, None
+test1_attach_volume_ide, SKIPPED, None
+test_01_list_volumes_pagination, PASSED, None
+test_02_list_volume_byid, PASSED, None
+test_03_data_volume_resize, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:22:51+0000', cmd : u'org.apache.cloudstack.api.command.user.volume.ResizeVolumeCmd', userid : u'bac95f5c-41a4-4b35-81ec-5f462544b7d1', jobstatus : 2, jobid : u'2cccba27-a31a-495c-a4d8-863e9d142dad', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 432, errortext : u'CloudStack currently supports volume resize only on KVM, VMware, or XenServer.'}, accountid : u'a9713a3d-da9c-4114-9334-4019dca805f4'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_volume
+test_04_custom_volume_resize, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:27:04+0000', cmd : u'org.apache.cloudstack.api.command.user.volume.ResizeVolumeCmd', userid : u'4629d78e-be4e-4a8c-ac06-87375c58f8f9', jobstatus : 2, jobid : u'ce988201-6dd1-40b6-b44d-60d0e3d7a186', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 432, errortext : u'CloudStack currently supports volume resize only on KVM, VMware, or XenServer.'}, accountid : u'63b1e5da-4f8c-40fd-a87f-cc49ca7b1236'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_volume
+test_05_volume_snapshot, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:31:12+0000', jobresult : {errorcode : 530, errortext : u'Failed to create snapshot due to an internal error creating snapshot for volume 872'}, cmd : u'org.apache.cloudstack.api.command.user.snapshot.CreateSnapshotCmd', userid : u'8d68017f-ba85-42a4-811e-90f93004050e', jobstatus : 2, jobid : u'0e030e13-5122-450d-8f4d-79c5bc066292', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'Snapshot', accountid : u'5718cd15-169a-4157-8a75-96049ae3434e'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_volume
+test_06_volume_snapshot_policy_hourly, PASSED, None
+test_07_volume_snapshot_policy_daily, PASSED, None
+test_08_volume_snapshot_policy_weekly, PASSED, None
+test_09_volume_snapshot_policy_monthly, PASSED, None
+test_10_volume_snapshots_pagination, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:48:46+0000', jobresult : {errorcode : 530, errortext : u'Failed to create snapshot due to an internal error creating snapshot for volume 938'}, cmd : u'org.apache.cloudstack.api.command.user.snapshot.CreateSnapshotCmd', userid : u'a0e21df1-7439-4acb-af6d-277c7aa633a6', jobstatus : 2, jobid : u'7e38d61b-ad43-4cfc-b7bb-6356d8355e8c', jobresultcode : 530, jobinstanceid : u'dde89a27-efe5-4c87-92ff-f24a4a1abb3c', jobresulttype : u'object', jobinstancetype : u'Snapshot', accountid : u'069c5ef2-ab11-4ebf-9b19-af9e82d333fc'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_volume
+test_11_volume_extract, PASSED, None
+test_12_volume_upload, PASSED, None
+test_13_volume_custom_disk_size, FAILED, Execute cmd: deletevolume failed, due to: errorCode: 431, errorText:Unable to aquire volume with ID: 955   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=escalations_volume
+test_01_list_vpncustomergateways_pagination, PASSED, None
+test_02_update_vpncustomergateways, PASSED, None
+test_01_deploy_vm_with_explicit_dedication, SKIPPED, None
+test_01_create_sticky_policy_default_values, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.161   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_02_create_sticky_policy_custom_values, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.165   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_03_supported_policies_by_network, PASSED, None
+test_04_delete_lb_rule, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.163   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_05_error_alerts_after_create, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.169   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_06_release_ip, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.164   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_07_delete_account, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.161   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_08_create_policy_router_stopped, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.163   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_09_create_policy_router_destroy, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.163   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_10_create_policy_enable_disable_vpn, FAILED, SSH Connection Failed: SSH failed for VM with IP Address: 10.81.39.163   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=haproxy
+test_11_invalid_params, FIXED, None
+test_01_deploy_vm_with_implicit_planner, SKIPPED, None
+runTest, FAILED, sequence item 0: expected string, NoneType found   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ip_reservation
+test_01_lb_rule_for_primary_ip, PASSED, None
+test_02_lb_rule_for_primary_ip, PASSED, None
+test_03_lb_rule_for_primary_and_secondary_ip, PASSED, None
+test_04_lb_rule_primary_secondary_multiple_vms, PASSED, None
+test_05_lb_rule_wrong_vm_id, PASSED, None
+test_06_lb_rule_wrong_vm_ip, PASSED, None
+test_07_lb_rule_used_ip, SKIPPED, None
+test_08_lb_rule_remove_used_ip, PASSED, None
+test_11_ssh_to_secondary_ip, FAILED, Exception during SSH : SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=lb_secondary_ip
+test_12_ssh_to_primary_secondary_ip, SKIPPED, None
+test_13_delete_lb_rule, FAILED, Exception during SSH : SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=lb_secondary_ip
+test_14_remove_lb_rule_secondary_ip, PASSED, None
+test_15_remove_lb_rule_primary_ip, FAILED, Exception during SSH : SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=lb_secondary_ip
+test_16_delete_vm_from_lb_rule, FAILED, Exception during SSH : SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=lb_secondary_ip
+test_20_destroy_recover_vm, FAILED, Exception during SSH : SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=lb_secondary_ip
+test_21_modify_lb_rule_algorithm, FAILED, Exception during SSH : SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=lb_secondary_ip
+test_09_lbvmips_true, PASSED, None
+test_10_lbvmips_false, PASSED, None
+test_17_restart_router, PASSED, None
+test_18_restart_network_cleanup_true, PASSED, None
+test_19_restart_network_cleanup_false, PASSED, None
+test_22_network_gc, PASSED, None
+test_01_addLdapConfiguration, FAILED, addLdapConfiguration failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ldap
+test_01_stop_start_instance, PASSED, None
+test_02_migrate_instance, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:54:35+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'd094a489-6a19-4b89-a606-c8c101746c3d', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-270-321-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=memory_limits
+test_03_delete_instance, PASSED, None
+test_04_deploy_multiple_vm, SKIPPED, None
+test_01_stop_start_instance, PASSED, None
+test_02_migrate_instance, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:11:07+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'2261ca65-e75e-4325-9c15-e1c87750a25d', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-302-357-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=memory_limits
+test_03_delete_instance, PASSED, None
+test_04_deploy_multiple_vm, PASSED, None
+test_01_change_service_offering, PASSED, None
+test_02_migrate_vm, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T08:54:44+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'e0044562-50b7-4c70-a554-daba5a5a0a79', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-267-319-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=mm_domain_limits
+test_03_delete_vm, PASSED, None
+test_04_deploy_multiple_vm, PASSED, None
+test_01_multiple_child_domains, PASSED, None
+test_01_deploy_vm_domain_limit_reached, FIXED, None
+test_02_deploy_vm_account_limit_reached, FIXED, None
+test_03_deploy_vm_project_limit_reached, FIXED, None
+test_04_deployVm__account_limit_reached, PASSED, None
+test_01_project_vmlifecycle_start_stop_instance, PASSED, None
+test_02_project_vmlifecycle_migrate_instance, FAILED, Failed to migrate instance: Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:09:22+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'c123b607-dd94-460d-afe1-82ac49db32f9', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-301-353-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=mm_project_limits
+test_03_project_vmlifecycle_delete_instance, PASSED, None
+runTest, FAILED, sequence item 0: expected string, NoneType found   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ip_ranges
+test_add_ip_to_nic_1_ISOLATED, PASSED, None
+test_add_ip_to_nic_2_SHARED, PASSED, None
+test_add_ip_to_nic_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:25:29+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'ea5c12a1-117f-42cc-984e-545a2c3935b1', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_list_nics_1_ISOLATED, PASSED, None
+test_list_nics_2_SHARED, PASSED, None
+test_list_nics_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:32:32+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'89d5a475-30ff-44a7-adbb-e170e68bdbce', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_operations_non_root_admin_api_client_1_ISOLATED, PASSED, None
+test_operations_non_root_admin_api_client_2_SHARED, PASSED, None
+test_operations_non_root_admin_api_client_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:40:52+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'56cf1707-d06f-4451-abb2-5be4b072f1ff', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_remove_invalid_ip, PASSED, None
+test_remove_ip_from_nic_1_ISOLATED, PASSED, None
+test_remove_ip_from_nic_2_SHARED, PASSED, None
+test_remove_ip_from_nic_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T09:49:51+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'26512d80-4d0c-4d76-a57e-0b303725293c', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_add_PF_rule_1_ISOLATED, PASSED, None
+test_add_PF_rule_2_SHARED, PASSED, None
+test_add_PF_rule_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T10:01:54+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'7cb73293-fc1b-447e-bc10-931c79aa37e0', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_add_static_nat_rule_1_ISOLATED, PASSED, None
+test_add_static_nat_rule_2_SHARED, PASSED, None
+test_add_static_nat_rule_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T10:13:53+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'aafc4a0c-fbec-4002-94a1-b56eebfd18e2', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_delete_PF_nat_rule_1_ISOLATED, PASSED, None
+test_delete_PF_nat_rule_2_SHARED, PASSED, None
+test_delete_PF_nat_rule_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T10:23:13+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'c9ced576-14f0-48b3-b18c-af44e6427963', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_disable_static_nat_1_ISOLATED, PASSED, None
+test_disable_static_nat_2_SHARED, PASSED, None
+test_disable_static_nat_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T10:32:40+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'9546b774-e97b-4005-890d-af3408851301', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_disassociate_ip_mapped_to_secondary_ip_through_PF_rule_1_ISOLATED, PASSED, None
+test_disassociate_ip_mapped_to_secondary_ip_through_PF_rule_2_SHARED, PASSED, None
+test_disassociate_ip_mapped_to_secondary_ip_through_PF_rule_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T10:40:39+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'e19e4ea4-336d-4cff-a5ec-e5183fdf16cc', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_delete_vm_1_ISOLATED, PASSED, None
+test_delete_vm_2_SHARED, PASSED, None
+test_delete_vm_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T10:51:10+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'24e22184-e306-48f9-88d6-8a9aac3820c1', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_network_restart_cleanup_false_1_ISOLATED, PASSED, None
+test_network_restart_cleanup_false_2_SHARED, PASSED, None
+test_network_restart_cleanup_false_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T11:06:19+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'c1b96042-1290-4d84-b381-1dc6995b3d7a', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_network_restart_cleanup_true_1_ISOLATED, PASSED, None
+test_network_restart_cleanup_true_2_SHARED, PASSED, None
+test_network_restart_cleanup_true_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T11:19:43+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'77531263-d413-45b8-8c3f-8610d0990d43', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_reboot_router_VM_1_ISOLATED, PASSED, None
+test_reboot_router_VM_2_SHARED, PASSED, None
+test_reboot_router_VM_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T11:34:44+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'22a43be9-b9e2-44b4-b768-cd25f251c7f3', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_recover_vm_1_ISOLATED, PASSED, None
+test_recover_vm_2_SHARED, PASSED, None
+test_recover_vm_3_VPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T11:43:25+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'bb33b275-f219-4a65-926a-609d97400373', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=multiple_ips_per_n
+test_01_network_off_without_conserve_mode, PASSED, None
+test_02_network_off_with_conserve_mode, PASSED, None
+test_03_network_off_CS5332, PASSED, None
+test_04_network_without_domain_CS19303, PASSED, None
+test_create_network_with_snat, PASSED, None
+test_01_add_non_contiguous_ranges, PASSED, None
+test_02_add_existing_vlan_range, PASSED, None
+test_03_extend_contiguous_range, PASSED, None
+test_04_remove_unused_range, PASSED, None
+test_05_remove_used_range, PASSED, None
+test_assign_vm_different_account_VR_1_VR, PASSED, None
+test_assign_vm_different_account_VR_2_RVR, PASSED, None
+test_assign_vm_different_account_VR_3_LB_NS, SKIPPED, None
+test_change_persistent_network_to_non_persistent, PASSED, None
+test_delete_account, PASSED, None
+test_list_persistent_network_offering, PASSED, None
+test_network_state_after_destroying_vms, PASSED, None
+test_persistent_network_offering_with_VPCVR_services, PASSED, None
+test_persistent_network_with_RVR, FIXED, None
+test_pf_nat_rule_persistent_network_1_LB_VR, PASSED, None
+test_pf_nat_rule_persistent_network_2_LB_Netscaler, SKIPPED, None
+test_shared_network_offering_with_persistent, PASSED, None
+test_upgrade_network_NS_to_persistent_NS, SKIPPED, None
+test_upgrade_network_VR_to_PersistentRVR, FIXED, None
+test_upgrade_to_persistent_services_VR_1_LB_VR, PASSED, None
+test_upgrade_to_persistent_services_VR_2_LB_NS, SKIPPED, None
+test_vm_deployment_persistent_and_non_persistent_networks, FIXED, None
+test_vm_deployment_two_persistent_networks, PASSED, None
+test_account_operations_1_locked, PASSED, None
+test_account_operations_2_disabled, PASSED, None
+test_project_operations, PASSED, None
+test_cleanup_persistent_network_1_true, FAILED, Exception while SSHing to VM 37e8574b-ebe5-4a5c-be24-7f121261dd44 with IP 10.81.39.164   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=persistent_network
+test_cleanup_persistent_network_2_false, FAILED, Exception while SSHing to VM 8e74dc23-c2c7-4371-bf55-fa04c49ff3e2 with IP 10.81.39.164   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=persistent_network
+test_cleanup_persistent_network_lb_netscaler_1_true, SKIPPED, None
+test_cleanup_persistent_network_lb_netscaler_2_false, SKIPPED, None
+test_vpc_delete_account, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T07:31:41+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'6e51984b-aebe-4e7e-9c95-8330fa8e760b', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=persistent_network
+test_vpc_force_delete_domain, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T07:31:52+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'89c3a0af-0220-4789-8ef9-89594e2beabf', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=persistent_network
+test_vpc_network_life_cycle_1_delete, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T07:32:13+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'5fbf1484-48c2-4e21-8877-58e0ecd1902c', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=persistent_network
+test_vpc_network_life_cycle_2_restart, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T07:32:24+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'3591d9eb-f4fc-4ff2-a155-6be83a8f319c', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=persistent_network
+test_vpc_private_gateway_static_route, SKIPPED, None
+runTest, FAILED, sequence item 0: expected string, NoneType found   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=portable_ip
+ContextSuite context=TestProjectCreationNegative>:setup, SKIPPED, None
+test_add_user_to_project, PASSED, None
+ContextSuite context=TestProjectInviteRequiredTrue>:setup, SKIPPED, None
+ContextSuite context=TestProjectInviteTimeout>:setup, SKIPPED, None
+test_admin_project_creation, PASSED, None
+test_maxAccountNetworks, PASSED, None
+test_01_project_limits, PASSED, None
+test_02_project_limits_normal_user, PASSED, None
+test_03_vm_per_project, PASSED, None
+test_04_publicip_per_project, PASSED, None
+test_05_snapshots_per_project, FAILED, Exception not raised   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=project_limits
+test_06_volumes_per_project, PASSED, None
+test_07_templates_per_project, FAILED, Exception not raised   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=project_limits
+test_03_network_create, PASSED, None
+test_01_service_offerings, PASSED, None
+test_02_project_disk_offerings, PASSED, None
+test_07_associate_public_ip, PASSED, None
+test_06_create_snapshots_in_project, FAILED, Check Snapshot state is in one of the mentioned possible states,                                     It is currently: Error   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=project_resources
+test_04_public_template_use_in_project, PASSED, None
+test_05_use_private_template_in_project, PASSED, None
+test_01_ISO_usage, PASSED, None
+test_01_lb_usage, PASSED, None
+test_01_nat_usage, PASSED, None
+test_01_public_ip_usage, PASSED, None
+test_01_snapshot_usage, FAILED, Check SNAPSHOT.CREATE event in events table   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=project_usage
+test_01_template_usage, FAILED, Check TEMPLATE.CREATE event in events table   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=project_usage
+test_01_vm_usage, PASSED, None
+test_01_volume_usage, PASSED, None
+test_01_vpn_usage, PASSED, None
+test_02_cross_domain_account_add, PASSED, None
+test_03_delete_account_with_project, PASSED, None
+test_04_delete_domain_with_project, PASSED, None
+test_01_create_multiple_projects_by_account, PASSED, None
+test_05_user_project_owner_promotion, PASSED, None
+test_06_max_one_project_owner, PASSED, None
+test_07_project_resources_account_delete, PASSED, None
+test_08_cleanup_after_project_delete, PASSED, None
+test_09_project_suspend, PASSED, None
+test_10_project_activation, PASSED, None
+test_01_multiple_domains_primary_storage_limits, PASSED, None
+test_02_multiple_domains_primary_storage_limits, PASSED, None
+test_03_multiple_domains_multiple_volumes, FIXED, None
+test_04_create_template_snapshot, FAILED, Failed with exception : Execute cmd: listsnapshots failed, due to: errorCode: 431, errorText:Unable to execute API command listsnapshots due to invalid value. Invalid parameter id value=584c4a39-dff9-4095-910a-0157bdf93bac due to incorrect long value format, or entity does not exist or due to incorrect parameter annotation for the field in api cmd class.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ps_domain_limits
+test_05_assign_virtual_machine_different_domain, PASSED, None
+test_06_destroy_recover_vm, PASSED, None
+test_assign_vm_different_account_1_root_domain_admin, PASSED, None
+test_assign_vm_different_account_2_child_domain_admin, PASSED, None
+test_attach_detach_volume_1_root_domain_admin, PASSED, None
+test_attach_detach_volume_2_child_domain_admin, PASSED, None
+test_create_multiple_volumes_1_root_domain_admin, PASSED, None
+test_create_multiple_volumes_2_child_domain_admin, PASSED, None
+test_create_template_snapshot_1_root_domain_admin, FAILED, Failure in volume operation: Execute cmd: createvolume failed, due to: errorCode: 431, errorText:Snapshot id=18 is not in BackedUp state yet and can't be used for volume creation   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ps_limits
+test_create_template_snapshot_2_child_domain_admin, FAILED, Execute cmd: listsnapshots failed, due to: errorCode: 431, errorText:Unable to execute API command listsnapshots due to invalid value. Invalid parameter id value=a819abe2-6cf2-428a-8fab-b8bd412637a1 due to incorrect long value format, or entity does not exist or due to incorrect parameter annotation for the field in api cmd class.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ps_limits
+test_deploy_multiple_vm_1_root_domain_admin, PASSED, None
+test_deploy_multiple_vm_2_child_domain_admin, PASSED, None
+test_destroy_recover_vm_1_root_domain_admin, SKIPPED, None
+test_destroy_recover_vm_2_child_domain_admin, SKIPPED, None
+test_stop_start_vm_1_root_domain_admin, PASSED, None
+test_stop_start_vm_2_child_domain_admin, PASSED, None
+test_01_deploy_vm_domain_limit_reached, FIXED, None
+test_02_deploy_vm_account_limit_reached, FIXED, None
+test_03_deploy_vm_project_limit_reached, FIXED, None
+test_01_VM_start_stop, PASSED, None
+test_02_migrate_vm, FAILED, not all arguments converted during string formatting   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ps_project_limits
+test_03_delete_vm, PASSED, None
+test_01_increase_volume_size_within_account_limit, FAILED, Failed with exception: Job failed: {jobprocstatus : 0, created : u'2014-10-05T10:48:00+0000', cmd : u'org.apache.cloudstack.api.command.user.volume.ResizeVolumeCmd', userid : u'b2ee26ba-b28c-42bb-a9f3-df8a088cee50', jobstatus : 2, jobid : u'131a26e4-b632-4a9e-95f7-8fcd95661d55', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 432, errortext : u'CloudStack currently supports volume resize only on KVM, VMware, or XenServer.'}, accountid : u'278817b9-ae5b-4b68-8e17-a721ceab6ee7'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ps_resize_volume
+test_02_increase_volume_size_above_account_limit, PASSED, None
+test_03_increase_volume_size_above_domain_limit, PASSED, None
+test_recurring_snapshot_data_disk, FAILED, List snapshots API call failed.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=recurring_snapshot
+test_recurring_snapshot_root_disk, FAILED, List snapshots API call failed.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=recurring_snapshot
+test_network_gc, PASSED, None
+test_restart_ntwk_no_cleanup, PASSED, None
+test_restart_ntwk_with_cleanup, FIXED, None
+test_enableVPNOverRvR, PASSED, None
+test_downgradeRvR_to_VR, PASSED, None
+test_upgradeVR_to_redundantVR, PASSED, None
+test_01_create_vpc_offering_with_regionlevelvpc_service_capability, PASSED, None
+test_02_create_vpc_from_offering_with_regionlevelvpc_service_capability, SKIPPED, None
+test_03_deploy_vms_in_vpc_with_regionlevelvpc, SKIPPED, None
+test_createRegionWithExistingRegionId, PASSED, None
+test_createRegionWithExistingRegionName, PASSED, None
+test_updateRegion, PASSED, None
+test_createAccountWithUUID, PASSED, None
+test_createUserWithUUID, PASSED, None
+test_createdomainWithUUID, PASSED, None
+ContextSuite context=TestResetSSHKeyUserRights>:setup, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=reset_ssh_keypair
+ContextSuite context=TestResetSSHKeypair>:setup, SKIPPED, None
+test_maxAccountNetworks, PASSED, None
+test_01_vm_per_account, PASSED, None
+test_02_publicip_per_account, PASSED, None
+test_03_snapshots_per_account, FAILED, Snapshot state is not valid, it is Error   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=resource_limits
+test_03_snapshots_per_account, FAILED, Warning: Exception during cleanup : Execute cmd: deletesnapshot failed, due to: errorCode: 431, errorText:Unable to execute API command deletesnapshot due to invalid value. Invalid parameter id value=dd9ca886-117e-4eb0-a9b4-a0a0755b50fb due to incorrect long value format, or entity does not exist or due to incorrect parameter annotation for the field in api cmd class.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=resource_limits
+test_04_volumes_per_account, PASSED, None
+test_05_templates_per_account, PASSED, None
+test_01_publicip_per_domain, PASSED, None
+test_01_vm_per_domain, PASSED, None
+test_03_snapshots_per_domain, FAILED, Snapshot state is not valid, it is Error   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=resource_limits
+test_03_snapshots_per_domain, FAILED, Warning: Exception during cleanup : Execute cmd: deletesnapshot failed, due to: errorCode: 431, errorText:Unable to execute API command deletesnapshot due to invalid value. Invalid parameter id value=f91481d0-df4b-4c2d-9460-5d470cdcb2c7 due to incorrect long value format, or entity does not exist or due to incorrect parameter annotation for the field in api cmd class.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=resource_limits
+test_04_volumes_per_domain, PASSED, None
+test_05_templates_per_domain, FIXED, None
+test_01_AdvancedZoneRouterServices, PASSED, None
+test_02_NetworkGarbageCollection, PASSED, None
+test_03_RouterStartOnVmDeploy, PASSED, None
+test_01_RouterStopCreateFW, PASSED, None
+test_01_RouterStopCreateLB, FAILED, SSH Access failed for 192.168.200.131: SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=routers
+test_01_RouterStopCreatePF, FAILED, SSH Access failed for 10.81.39.161: SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=routers
+runTest, FAILED, sequence item 0: expected string, NoneType found   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=shared_networks
+test_02_accountSnapshotClean, FAILED, Exception occured: Execute cmd: listsnapshots failed, due to: errorCode: 431, errorText:Unable to execute API command listsnapshots due to invalid value. Invalid parameter id value=beee6d85-d54d-460f-be23-1cbaabd75aff due to incorrect long value format, or entity does not exist or due to incorrect parameter annotation for the field in api cmd class.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshot_gc
+test_04_snapshot_limit, FAILED, Check list response returns a valid list   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshot_limits
+test_01_createVM_snapshotTemplate, FAILED, Execute cmd: createtemplate failed, due to: errorCode: 431, errorText:Snapshot id=6 is not in BackedUp state yet and can't be used for template creation   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshots
+test_05_snapshot_events, PASSED, None
+test_01_volume_from_snapshot, FAILED, SSH failed for VM: 192.168.200.162   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshots
+test_02_snapshot_data_disk, FAILED, False is not true   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshots
+test_03_snapshot_detachedDisk, FAILED, SSH failed for VM with IP: 10.81.39.165 - SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshots
+test_04_delete_snapshot, PASSED, None
+test_07_template_from_snapshot, FAILED, SSH failed for VM with IP address: 192.168.200.162   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshots
+test_01_concurrent_snapshots_live_migrate, PASSED, None
+test_02_stop_vm_concurrent_snapshots, FIXED, None
+test_03_concurrent_snapshots_create_template, FAILED, Check if result exists in list item call   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshots_improvem
+test_04_concurrent_snapshots_create_volume, FAILED, Failed to verify snapshots created: Failed to fetch snapshots for account: test-TestSnapshotOnRootVolume-test_04_concurrent_snapshots_create_volume-PYA0J4 - List snapshots shall return a valid list   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshots_improvem
+test_01_snapshot_on_rootVolume, FAILED, Snapshot state is not as expected. It is Error   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=snapshots_improvem
+test_04_create_template_delete_account, FAILED, Warning: Exception during cleanup : Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:33:14+0000', cmd : u'org.apache.cloudstack.api.command.admin.domain.DeleteDomainCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'742c5dbd-9a33-4509-bdae-786a722857bf', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u"Can't delete the domain yet because it has 1 accounts to cleanup"}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_domain_limits
+test_01_multiple_domains_secondary_storage_limits, FAILED, Failed with exception as ee: argument of type 'NoneType' is not iterable   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_domain_limits
+test_01_multiple_domains_secondary_storage_limits, FAILED, Warning: Exception during cleanup : Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:34:39+0000', cmd : u'org.apache.cloudstack.api.command.admin.domain.DeleteDomainCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'908185e6-a9df-49c3-8363-1b2aaa7d3b06', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u"Can't delete the domain yet because it has 1 accounts to cleanup"}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_domain_limits
+test_02_multiple_domains_secondary_storage_counts, FAILED, Failed to get zone list: Error in downloading template: status -     Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_domain_limits
+test_02_multiple_domains_secondary_storage_counts, FAILED, Warning: Exception during cleanup : Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:36:07+0000', cmd : u'org.apache.cloudstack.api.command.admin.domain.DeleteDomainCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'7f22e71f-0d56-4777-8ddf-e980ba7fc574', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u"Can't delete the domain yet because it has 1 accounts to cleanup"}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_domain_limits
+test_03_copy_template, SKIPPED, None
+test_01_register_template_1_root_domain_admin, PASSED, None
+test_01_register_template_2_child_domain_admin, PASSED, None
+test_02_create_template_snapshot_1_root_domain_admin, FAILED, Failed to create template: Execute cmd: createtemplate failed, due to: errorCode: 431, errorText:Snapshot id=15 is not in BackedUp state yet and can't be used for template creation   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_limits
+test_02_create_template_snapshot_2_child_domain_admin, FAILED, Failed to create template: Execute cmd: createtemplate failed, due to: errorCode: 431, errorText:Snapshot id=16 is not in BackedUp state yet and can't be used for template creation   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_limits
+test_03_register_iso_1_root_domain_admin, PASSED, None
+test_03_register_iso_2_child_domain_admin, PASSED, None
+test_04_copy_template_1_root_domain_admin, SKIPPED, None
+test_04_copy_template_2_child_domain_admin, SKIPPED, None
+test_01_deploy_vm_domain_limit_reached, FIXED, None
+test_02_deploy_vm_account_limit_reached, FIXED, None
+test_03_deploy_vm_project_limit_reached, FIXED, None
+test_01_register_template_with_project, FAILED, Failed to register template: Error in downloading template: status -     Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_project_limits
+test_01_register_template_with_project, FAILED, Warning: Exception during cleanup : Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:36:48+0000', cmd : u'org.apache.cloudstack.api.command.admin.domain.DeleteDomainCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'a0b4788c-b3c4-4b11-9909-e19716483c69', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u"Can't delete the domain yet because it has 1 accounts to cleanup"}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=ss_project_limits
+test_02_register_iso, PASSED, None
+test_01_deploy_ha_vm_startvm_false, PASSED, None
+test_02_deploy_ha_vm_from_iso, FIXED, None
+test_03_deploy_ha_vm_iso_startvm_false, PASSED, None
+test_deployVmOnGivenHost, PASSED, None
+test_01_deploy_vm_no_startvm, PASSED, None
+test_02_deploy_vm_startvm_true, PASSED, None
+test_03_deploy_vm_startvm_false, PASSED, None
+test_04_deploy_startvm_false_attach_volume, PASSED, None
+test_05_deploy_startvm_false_change_so, PASSED, None
+test_06_deploy_startvm_attach_detach, PASSED, None
+test_07_deploy_startvm_attach_iso, PASSED, None
+test_08_deploy_attached_volume, PASSED, None
+test_09_stop_vm_migrate_vol, SKIPPED, None
+test_deploy_vm_password_enabled, PASSED, None
+test_01_deploy_vm_no_startvm, PASSED, None
+test_upload_attach_volume, REGRESSION, Failed to upload the volume: Error in uploading volume: status - Allocated   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=stopped_vm
+test_vm_per_account, PASSED, None
+test_01_migrate_vm_with_volume, SKIPPED, None
+test_02_migrate_volume, SKIPPED, None
+test_01_lbrule_tag, PASSED, None
+test_02_natrule_tag, PASSED, None
+test_03_firewallrule_tag, PASSED, None
+test_04_vpn_tag, SKIPPED, None
+test_05_vm_tag, PASSED, None
+test_06_template_tag, FAILED, List tags should not return empty response   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=tags
+test_07_iso_tag, PASSED, None
+test_08_volume_tag, PASSED, None
+test_09_snapshot_tag, PASSED, None
+test_10_network_tag, PASSED, None
+test_13_tag_case_insensitive, PASSED, None
+test_14_special_char_mutiple_tags, PASSED, None
+test_15_project_tag, FAILED, List tags should not return empty response   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=tags
+test_16_query_tags_other_account, PASSED, None
+test_17_query_tags_admin_account, PASSED, None
+test_18_invalid_list_parameters, PASSED, None
+test_19_delete_add_same_tag, PASSED, None
+test_20_create_tags_multiple_resources, PASSED, None
+test_21_create_tag_stopped_vm, PASSED, None
+test_22_create_tag_destroyed_vm, PASSED, None
+test_01_create_template, PASSED, None
+test_01_create_template_volume, FIXED, None
+test_03_delete_template, PASSED, None
+test_04_template_from_snapshot, FAILED, Execute cmd: createtemplate failed, due to: errorCode: 431, errorText:Snapshot id=29 is not in BackedUp state yet and can't be used for template creation   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=templates
+test_update_vm_name, PASSED, None
+test_01_ISO_usage, PASSED, None
+test_01_lb_usage, PASSED, None
+test_01_nat_usage, PASSED, None
+test_01_public_ip_usage, PASSED, None
+test_01_snapshot_usage, FAILED, Check SNAPSHOT.CREATE event in events table   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=usage
+test_01_template_usage, FAILED, Check TEMPLATE.CREATE event in events table   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=usage
+test_01_vm_usage, PASSED, None
+test_01_volume_usage, PASSED, None
+test_01_vpn_usage, PASSED, None
+ContextSuite context=TestVMPasswordEnabled>:setup, FAILED, SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vm_passwdenabled
+ContextSuite context=TestAffinityRules>:setup, SKIPPED, None
+ContextSuite context=TestAntiAffinityRules>:setup, SKIPPED, None
+ContextSuite context=TestVMPlacement>:setup, SKIPPED, None
+test_01_volume_attach_detach, FAILED, Exception occuered: Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:31:26+0000', jobresult : {errorcode : 530, errortext : u'Command failed due to Internal Server Error'}, cmd : u'org.apache.cloudstack.api.command.admin.volume.AttachVolumeCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'dc0bfbd8-880e-45b9-8452-de0c2f5a055f', jobresultcode : 530, jobinstanceid : u'ad0f800f-cea3-4a4b-95ab-4a65f02f05c2', jobresulttype : u'object', jobinstancetype : u'Volume', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=volumes
+test_01_volume_attach_detach, FAILED, Execute cmd: deletevolume failed, due to: errorCode: 431, errorText:Please specify a volume that is not attached to any VM.   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=volumes
+test_01_volume_attach, FAILED, Exception occured: Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:36:59+0000', jobresult : {errorcode : 530, errortext : u'Command failed due to Internal Server Error'}, cmd : u'org.apache.cloudstack.api.command.admin.volume.AttachVolumeCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'62d37ab7-a900-4e70-ad0c-a624bdbb8960', jobresultcode : 530, jobinstanceid : u'a8812469-885e-4f47-8e5d-483d9943d4f5', jobresulttype : u'object', jobinstancetype : u'Volume', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=volumes
+test_02_volume_attach_max, PASSED, None
+test_01_volume_iso_attach, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T13:43:38+0000', jobresult : {errorcode : 530, errortext : u'Command failed due to Internal Server Error'}, cmd : u'org.apache.cloudstack.api.command.admin.volume.AttachVolumeCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'80c4155a-69a9-4a29-b8e7-6d93f79c1a94', jobresultcode : 530, jobinstanceid : u'f57e9797-aabb-4452-8701-eb49f512316a', jobresulttype : u'object', jobinstancetype : u'Volume', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=volumes
+test_deployVmWithCustomDisk, PASSED, None
+test_01_migrateVolume, FAILED, global name 'validateList' is not defined   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=volumes
+test_01_attach_volume, PASSED, None
+test_02_detach_volume, PASSED, None
+test_03_delete_detached_volume, PASSED, None
+test_create_volume_under_domain, PASSED, None
+test_01_list_vpc_apis, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:16:31+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'ceebd388-d8fd-4dcc-9f40-37579ced8ceb', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_02_restart_vpc_no_networks, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:16:41+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'b3ff6f80-4f31-477b-8f2b-e9a80c226162', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_03_restart_vpc_with_networks, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:16:52+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'54ec5f51-5fce-4167-8d56-de5bf75ae79d', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_04_delete_vpc_no_networks, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:17:02+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'aa737b8e-57de-4675-8953-aeb6dc3b6505', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_05_delete_vpc_with_networks, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:17:13+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'2bda44bd-6341-4869-b998-38aa87f8fb5f', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_06_list_vpc_apis_admin, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:17:23+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'bb4ba53a-9d40-48eb-b80d-e0679dbc6084', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_07_restart_network_vm_running, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:17:44+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'0eb9f7d5-5f08-4565-a482-97c452f5b7a6', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_08_delete_vpc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:00+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'daada7dd-b3dd-48df-be41-8aeba839d573', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_09_vpc_create, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:11+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'36da94c2-a598-4943-bdcd-19960b43604d', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_10_nonoverlaping_cidrs, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:21+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'0e5e35a9-b193-4aec-a5b7-ec1f5a303e3a', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_11_deploy_vm_wo_network_netdomain, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:32+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'81172dd5-c5f2-460c-b68a-e73536d7fb10', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_12_deploy_vm_with_netdomain, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:42+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'78b6386b-7555-4315-af9a-59d76b3623f0', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_13_deploy_vm_with_vpc_netdomain, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:53+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'ba748fe2-c542-4563-b615-f06342ac0ce0', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_14_deploy_vm_1, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:04+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'eb3e06c7-332e-4848-8ca0-00b9bf56f84d', jobstatus : 2, jobid : u'3a63991f-f198-439f-b352-2c7615a52fee', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'8ed754bd-c56a-42ef-9631-0911923d35ff'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_15_deploy_vm_2, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:20+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'c54e29b2-c7d2-4fef-ad32-8d4a45e3bbd0', jobstatus : 2, jobid : u'34b399b8-de2d-4628-9d51-de4bc3c3ef1b', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'73021ee4-c09b-4340-8ca1-0b5a07dc16cb'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_16_deploy_vm_for_user_by_admin, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:36+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'7273673a-e8fa-4697-b8c3-67439263969b', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_17_deploy_vm_for_user_by_domain_admin, PASSED, None
+test_18_create_net_for_user_diff_domain_by_doadmin, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:20:09+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.user.vpc.CreateVPCCmd', userid : u'1739befb-4e3f-4279-ab05-6e01932b8904', jobstatus : 2, jobid : u'58ac11e0-428a-4316-975f-75701f8f120d', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'40ff8e54-8279-4157-8b2a-ba6d58d42cb3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_19_create_vpc_wo_params, PASSED, None
+test_20_update_vpc_name_display_text, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:20:35+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'75497fd9-f240-426b-8a60-6f2ea0a1356e', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc
+test_01_create_vpc_offering_with_distributedrouter_service_capability, PASSED, None
+test_02_create_vpc_from_offering_with_distributedrouter_service_capability, SKIPPED, None
+test_03_deploy_vms_in_vpc_with_distributedrouter, SKIPPED, None
+test_01_create_network_1_network_offering, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:13:40+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'6b77f69b-00ee-49e3-980f-e426776a7961', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_01_create_network_2_network_offering_vpcns, SKIPPED, None
+test_02_create_network_fail_1_network_offering, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:13:56+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'51c97c26-1158-46a8-b702-0c660d4e3257', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_02_create_network_fail_2_network_offering_vpcns, SKIPPED, None
+test_04_create_multiple_networks_with_lb_1_network_offering, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:14:12+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'acd88a98-aa4e-47e9-9e79-3fa49f0cb791', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_04_create_multiple_networks_with_lb_2_network_offering_vpcns, SKIPPED, None
+test_06_create_network_with_rvr, SKIPPED, None
+test_07_create_network_unsupported_services, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:14:34+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'9116ed85-7e40-4bfe-be24-17d60b0d3e30', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_08_create_network_without_sourceNAT, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:14:45+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'fb8a0e6d-0f44-4d47-997f-1f013aa44e5c', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_09_create_network_shared_nwoff_1_network_off_shared, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:15:01+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'dd0f6c9c-7d94-41a7-8b47-7e030c9fb5db', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_09_create_network_shared_nwoff_2_network_offering_vpcns, SKIPPED, None
+test_10_create_network_with_conserve_mode_1_network_offering, PASSED, None
+test_10_create_network_with_conserve_mode_2_network_offering_vpcns, PASSED, None
+ContextSuite context=TestVPCNetworkGc>:setup, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:15:33+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'95f2ddd0-7deb-45ab-95a6-326def5092ac', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_01_create_network_outside_range_1_network_offering, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:15:44+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'334e4cdd-984a-4107-99d3-9a6413cac648', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_01_create_network_outside_range_2_network_offering_vpcns, SKIPPED, None
+test_02_create_network_outside_range, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:16:00+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'1722237e-a892-42f9-acee-c43c8cdb616a', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_03_create_network_inside_range_1_network_offering, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:16:16+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'31d13ee6-d268-406d-a8d8-908bc13501ea', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_03_create_network_inside_range_2_network_offering_vpcns, SKIPPED, None
+test_04_create_network_overlapping_range_1_network_offering, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:16:32+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'9e5ad3d1-9931-42c7-b505-f0fd1c567c4d', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_04_create_network_overlapping_range_2_network_offering_vpcns, SKIPPED, None
+test_05_create_network_diff_account_1_network_offering, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:16:48+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'264cb43c-14cd-466a-b915-23646281d938', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_05_create_network_diff_account_2_network_offering_vpcns, SKIPPED, None
+test_01_network_services_upgrade, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:17:04+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'689d21e9-1ed6-4505-90a0-1783838fa35d', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_02_network_vpcvr2vr_upgrade, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:17:19+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'24753eba-2818-4449-a4ad-1c6aff685848', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network
+test_01_VPC_LBRulesListing, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:45:48+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'03b5b66e-1f0a-4776-bb10-93d07f8ad2eb', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_02_VPC_CreateLBRuleInMultipleNetworks, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:45:59+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'078d4cb2-9cb7-4031-9320-c5899783141f', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_03_VPC_CreateLBRuleInMultipleNetworksVRStoppedState, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:46:04+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'cb4ed780-52a5-46e3-a053-2d6e38f5d937', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_04_VPC_CreateLBRuleInMultipleNetworksVRStoppedState, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:46:10+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'6442c111-df19-455d-9be6-e206ed8ba114', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_05_VPC_CreateAndDeleteLBRule, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:46:16+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'849fec44-d4e1-4502-ac62-26ecac180dcd', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_06_VPC_CreateAndDeleteLBRuleVRStopppedState, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:46:26+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'733519e8-dbd9-4fb6-a78c-072fa2a9711b', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_07_VPC_CreateAndDeleteAllLBRule, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:46:37+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'b4281591-268a-4094-a3fc-7b091c3729bd', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_08_VPC_CreateAndDeleteAllLBRuleVRStoppedState, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:46:42+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'75128946-55c6-41c0-af56-baab93dab50b', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_09_VPC_LBRuleCreateFailMultipleVPC, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:46:48+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'59b66755-022a-4acf-b8ea-2f8828bbf172', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_10_VPC_FailedToCreateLBRuleNonVPCNetwork, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:46:59+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'f5990281-f264-4ca1-91e5-bbf2bb9e95af', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_11_VPC_LBRuleCreateNotAllowed, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:47:04+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'a9074c0c-73f1-48cb-bca6-d2d8893456fb', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_12_VPC_LBRuleCreateFailForRouterIP, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:47:15+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'1e2f3f11-2783-41f9-bef4-84ae44cb3012', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_13_VPC_LBRuleCreateFailForPFSourceNATIP, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:47:21+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'fc2facd0-a16f-4f57-81ab-94759df0d2bb', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_14_VPC_LBRuleCreateFailForStaticNatRule, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:47:31+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'03cc53de-f1a7-41fe-ae03-e86678c860b0', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_15_VPC_ReleaseIPForLBRuleCreated, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:47:42+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'a19f407e-4c40-493f-9bba-58f089f4eff4', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_lbrule
+test_01_network_services_VPC_StopCreatePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:17:55+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'f2afd82c-918e-406e-8a60-0b877f8cc233', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_02_network_services_VPC_CreatePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:01+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'96166673-5c4c-42c5-b2a1-269258035b46', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_03_network_services_VPC_StopCreateMultiplePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:11+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'374dc861-13a2-4385-8a41-b2145d3d56de', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_04_network_services_VPC_CreateMultiplePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:17+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'c57bf154-1bb0-4671-8d85-227c7217704e', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_05_network_services_VPC_StopDeletePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:28+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'052e2fc7-0ef2-4bb9-a54a-59b24d505e05', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_06_network_services_VPC_DeletePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:33+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'54fbfda4-21e5-49a4-a758-985ef0dee292', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_07_network_services_VPC_StopDeleteAllPF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:44+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'd3627e90-ed9a-4c78-890a-489a620d4580', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_08_network_services_VPC_DeleteAllPF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:18:55+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'4b9d5be0-56ff-45e3-a617-5c4bdf307cc4', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_09_network_services_VPC_StopDeleteAllMultiplePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:00+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'125f827b-ed7e-4956-9fe6-6b730bbffc0b', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_10_network_services_VPC_DeleteAllMultiplePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:06+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'81ca3f52-50bd-407f-8c20-83af1acdd1e2', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_pfrule
+test_01_VPC_StaticNatRuleCreateStoppedState, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:48:48+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'a34716ce-f797-4a09-ba4d-65d0bb1d5b0a', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_static
+test_02_VPC_CreateStaticNatRule, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:48:59+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'cf12aff0-7ada-47db-81bf-5aaf94fff9df', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_static
+test_03_VPC_StopCreateMultipleStaticNatRuleStopppedState, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:49:10+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'b77dc957-3958-4de6-80a9-f4a67e3d3151', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_static
+test_04_VPC_CreateMultipleStaticNatRule, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:49:16+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'3bb8cd7f-c2d7-4242-a037-fde7e849dd0d', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_static
+test_05_network_services_VPC_DeleteAllPF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:49:21+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'cd54281f-034e-4b4c-bec5-948b33e531c4', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_static
+test_06_network_services_VPC_DeleteAllMultiplePF, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:49:27+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'2e6068f0-38e4-4073-be31-bdc00cddb1e5', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_network_static
+test_01_create_vpc_offering, PASSED, None
+test_02_deploy_vms_in_vpc_nw, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:50:34+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'f5be1ba2-1b02-455d-b075-f785a3744bb1', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_offerings
+test_03_vpc_off_without_lb, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:50:45+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'c4d255ec-208c-4db4-8ce9-73e6371cc3dd', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_offerings
+test_04_vpc_off_without_static_nat, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:51:02+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'420b53de-33bf-4039-8eff-27923e6447e6', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_offerings
+test_05_vpc_off_without_pf, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:51:15+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'1a01b51b-a744-4ad0-a891-28aa6525c3d3', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_offerings
+test_06_vpc_off_invalid_services, PASSED, None
+test_07_update_vpc_off, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:51:51+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'da6972b4-70dc-4316-9889-5e1f4e6ce8d6', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_offerings
+test_08_list_vpc_off, PASSED, None
+ContextSuite context=TestVPCRouterOneNetwork>:setup, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:51:51+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'23ee0e7d-badf-4a33-a6bc-d8a986fe9b8c', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_routers
+ContextSuite context=TestVPCRoutersBasic>:setup, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T12:52:02+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'b3637544-a484-4032-8226-88fd2e1b59e2', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_routers
+ContextSuite context=TestVMLifeCycleBothIsolated>:setup, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:31+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'24931ac5-11c9-495a-91a8-4fa0a64d397a', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vm_life_cycle
+ContextSuite context=TestVMLifeCycleDiffHosts>:setup, FAILED, Warning: Exception during setup : Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:37+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'f28b43f4-0581-4119-8b2c-f0e62f11fd87', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vm_life_cycle
+ContextSuite context=TestVMLifeCycleSharedNwVPC>:setup, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:43+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'19ed519b-c64d-4f87-ada3-c605585da4c7', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vm_life_cycle
+ContextSuite context=TestVMLifeCycleStoppedVPCVR>:setup, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:19:49+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'f68aa857-296c-4e0c-a92c-ecc61fab5752', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vm_life_cycle
+ContextSuite context=TestVMLifeCycleVPC>:setup, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:20:00+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'06998b34-5e46-4de6-b04e-df71f230fb1a', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vm_life_cycle
+test_01_deploy_vms_in_network, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:13:45+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'54dd5fcb-4176-4942-a3e8-ca07763271fd', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vms_deployment
+test_02_deploy_vms_delete_network, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:14:01+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'e128f243-773b-413f-bd17-fd8a493be822', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vms_deployment
+test_03_deploy_vms_delete_add_network, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:14:17+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'3fdc2f41-4107-4f51-83b1-d19ed551ba25', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vms_deployment
+test_04_deploy_vms_delete_add_network_noLb, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:14:29+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'875b3540-9350-4551-91e1-2fab95e196f9', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vms_deployment
+test_05_create_network_max_limit, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:14:39+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'87dc7c5e-3412-47cb-864e-d8fe9c33b281', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vms_deployment
+test_06_delete_network_vm_running, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:15:00+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'5fdf2508-a25f-42ed-86b8-bc84c1ef0f0f', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vms_deployment
+test_07_delete_network_with_rules, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:15:16+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'8787b79b-25b4-4197-8237-5c52d0ab1ed2', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vms_deployment
+test_08_ip_reallocation_CS5986, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T05:15:27+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'44e3b54c-9c2b-4edf-8ad5-a9f7b3dc3ba4', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Parallel&test=vpc_vms_deployment
+test_01_VPN_user_limit, PASSED, None
+test_02_use_vpn_port, PASSED, None
+test_03_enable_vpn_use_port, PASSED, None
+test_04_add_new_users, PASSED, None
+test_05_add_duplicate_user, PASSED, None
+test_06_add_VPN_user_global_admin, PASSED, None
+test_07_add_VPN_user_domain_admin, PASSED, None
+test_CLOUDSTACK_5023, SKIPPED, None
+test_CLOUDSTACK_6181_stoppedvm_root_resize, SKIPPED, None
+test_CLOUDSTACK_6181_vm_root_resize, SKIPPED, None
+test_add_cluster_datacenter_spaces, SKIPPED, None
+test_es_1223_apply_algo_to_pods, SKIPPED, None
+test_es_1236_cloudstack_sccs, PASSED, None
+test_es_1863_register_template_s3_domain_admin_user, REGRESSION, argument of type 'NoneType' is not iterable   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=bugs
+test_es_47_list_os_types_win_2012, FAILED, Error in downloading template: status - Storage agent or storage VM disconnected   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=bugs
+test_local_storage_data_disk_tag, SKIPPED, None
+test_multiple_mgmt_srvr_session_timeout, PASSED, None
+test_secondary_storage_stats, REGRESSION, check the total capacity of secondary storage returned   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=bugs
+test_01_host_maintenance_mode, FAILED, SSH Access failed for 192.168.200.245: SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=high_availability
+test_02_host_maintenance_mode_with_activities, FAILED, SSH Access failed for 192.168.200.94: SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=high_availability
+test_01_vm_deployment_with_compute_offering_with_ha_enabled, FIXED, None
+test_02_no_vm_creation_on_host_with_haenabled, FIXED, None
+test_03_cant_migrate_vm_to_host_with_ha_positive, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T19:26:58+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'7c4806d5-79fd-46c1-a331-6d897114db0b', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'Job failed due to exception Unable to complete migration for VM[User|i-710-878-VM]'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=host_high_availabi
+test_04_cant_migrate_vm_to_host_with_ha_negative, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T19:30:11+0000', cmd : u'org.apache.cloudstack.api.command.admin.vm.MigrateVMCmd', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'3eac3ef4-391a-476f-a0a1-95fca0b04744', jobresultcode : 530, jobresulttype : u'object', jobresult : {errorcode : 530, errortext : u'The specified host(s-872-VM) is not suitable to migrate the VM, please specify another one'}, accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=host_high_availabi
+test_05_no_vm_with_ha_gets_migrated_to_ha_host_in_live_migration, FIXED, None
+test_06_no_vm_without_ha_gets_migrated_to_ha_host_in_live_migration, FIXED, None
+runTest, FAILED, sequence item 0: expected string, NoneType found   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=multiple_ip_ranges_0
+test_createRvRNetwork, PASSED, None
+test_createRvRNetwork, PASSED, None
+test_createRvRNetworkOffering, PASSED, None
+test_redundantVR_internals, FAILED, 'CloudStackAPIClient' object has no attribute 'connction'   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=redundant_router
+test_01_stopMasterRvR, PASSED, None
+test_02_stopBackupRvR, PASSED, None
+test_03_rebootMasterRvR, PASSED, None
+test_04_rebootBackupRvR, PASSED, None
+test_05_stopBackupRvR_startInstance, PASSED, None
+test_RvR_multicluster, SKIPPED, None
+test_RvR_multihosts, PASSED, None
+test_RvR_multipods, SKIPPED, None
+test_RvR_multiprimarystorage, SKIPPED, None
+test_applyNetworkRules_MasterDown_deleteNetworkRules, FAILED, SSH to guest VM failed: SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=redundant_router_n
+test_applyRules_restartRvRNetwork, FAILED, SSH to guest VM failed: SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=redundant_router_n
+test_apply_and__delete_NetworkRulesOnRvR, FAILED, SSH to guest VM failed: SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=redundant_router_n
+test_networkRules_afterRebootRouters, FAILED, SSH to guest VM failed: SSH connection has Failed. Waited 600s. Error is SSH Connection Failed   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=redundant_router_n
+ContextSuite context=TestVMLifeCycleHostmaintenance>:setup, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T19:41:49+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'e1761966-1d94-4668-b321-db454fa9911a', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=vpc_host_maintenan
+test_01_create_vpc_host_maintenance, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T18:47:19+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'e9f5bab5-aedd-4e55-bd64-81b769c2f35f', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=vpc_on_host_mainte
+test_02_create_vpc_wait_gc, FAILED, Job failed: {jobprocstatus : 0, created : u'2014-10-05T18:49:30+0000', jobresult : {errorcode : 530, errortext : u'Failed to create VPC'}, cmd : u'org.apache.cloudstack.api.command.admin.vpc.CreateVPCCmdByAdmin', userid : u'a9a6ec30-4c42-11e4-a34a-b69747f5d0e3', jobstatus : 2, jobid : u'c45ebf30-fac4-47f4-98f3-a3e7e70e1f5f', jobresultcode : 530, jobresulttype : u'object', jobinstancetype : u'None', accountid : u'a9a6e000-4c42-11e4-a34a-b69747f5d0e3'}   Logs available at http://xenrt.hq.xensource.com/control/queue.cgi?action=testlogs&id=853936&phase=Serial&test=vpc_on_host_mainte

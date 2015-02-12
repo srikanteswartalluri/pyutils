@@ -71,7 +71,7 @@ f.close()
 # }
 # #jira = JIRA(options)
 #
-# jira = JIRA(options,basic_auth=('talluri', 'SiriEdu123'))
+# jira = JIRA(options,basic_auth=('talluri', ''))
 # # Get all projects viewable by anonymous users.
 # projects = jira.projects()
 #

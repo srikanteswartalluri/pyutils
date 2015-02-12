@@ -1,0 +1,11 @@
+import win32com.client
+
+count = 0
+olMailItem = 0x0
+obj = win32com.client.Dispatch("Outlook.Application")
+newMail = obj.CreateItem(olMailItem)
+newMail.Subject = "Sprint incomplete tasks"
+newMail.Body = "you have %s incomplete task(s)" % count
+newMail.To = "Srikanteswararao Talluri"
+
+newMail.Send()

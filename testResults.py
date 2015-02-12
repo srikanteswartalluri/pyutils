@@ -3,7 +3,7 @@ import string
 import xlwt
 wbk = xlwt.Workbook()
 username="talluri"
-password='vmops.com'
+password=''
 j = jenkins.Jenkins('http://10.223.240.215',username,password)
 #jobs = ['Adv_XS_BVT_Report', 'Adv_XS_Regression_Report', 'Basic_XS_BVT_Report', 'Basic_XS_Regression_Report']
     #, 'Eip_elb_BVT_Report', 'Eip_elb_XS_Regression_Report']

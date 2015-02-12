@@ -1,0 +1,52 @@
+GreenHopper board: CCP QA Scrum (475)
+Sprint: CCP HYDQA 14Q4S08
+shwetaag:
+	Completed: [u'CS-27428']
+	In Progress: [], 
+	Todo: [u'CS-27433']
+
+t_ashutosk:
+	Completed: [u'CS-22605']
+	In Progress: [u'CS-27440'], 
+	Todo: []
+
+pavanb:
+	Completed: []
+	In Progress: [u'CS-27436'], 
+	Todo: []
+
+t_manasave:
+	Completed: []
+	In Progress: [u'CS-27426'], 
+	Todo: []
+
+t_gauravar:
+	Completed: []
+	In Progress: [u'CS-27438'], 
+	Todo: []
+
+sureshsa:
+	Completed: [u'CS-26182']
+	In Progress: [], 
+	Todo: [u'CS-27431']
+
+sanjeevn:
+	Completed: [u'CS-25511']
+	In Progress: [u'CS-27434'], 
+	Todo: []
+
+srikantest:
+	Completed: [u'CS-27442']
+	In Progress: [u'CS-27439'], 
+	Todo: []
+
+rpullela:
+	Completed: []
+	In Progress: [], 
+	Todo: []
+
+prashantkm:
+	Completed: []
+	In Progress: [u'CS-27430'], 
+	Todo: []
+
