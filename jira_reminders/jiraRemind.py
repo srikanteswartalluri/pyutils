@@ -13,7 +13,7 @@ options = {
 }
 #jira = JIRA(options)
 
-jira = JIRA(options, basic_auth=('srikantest', 'SiriHyd23thChanging'))
+jira = JIRA(options)
 # Get all projects viewable by anonymous users.
 projects = jira.projects()
 

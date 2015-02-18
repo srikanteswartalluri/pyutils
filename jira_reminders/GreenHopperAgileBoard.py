@@ -48,8 +48,8 @@ options = {
     'server': 'https://issues.citrite.net'
 }
 
-jira = JIRA(options, basic_auth=('srikantest', 'SiriHyd23thChanging'))
-gh = GreenHopper(options, basic_auth=('srikantest', 'SiriHyd23thChanging'))
+jira = JIRA(options)
+gh = GreenHopper(options)
 
 # Get all boards viewable by anonymous users.
 # boards = gh.boards()
