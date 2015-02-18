@@ -11,6 +11,8 @@ from datetime import *
 from subprocess import Popen, PIPE
 import os
 import errno
+import sys
+
 
 
 def silentremove(filename):
@@ -98,21 +100,26 @@ options = {
 }
 
 jira = JIRA(options)
-gh = GreenHopper(options)
+gh = JIRA(options)
 
 # Get all boards viewable by anonymous users.
 # boards = gh.boards()
 board_id = ""
 board_name = ""
+sprint_id = ""
 # for board in boards:
 #     if 'scrum-hyd' in board.name.lower():
 #         board_id = board.id
 #         board_name = board.name
 #         break
 # Get the sprints in a specific board
-board_id = 440
+if len(sys.argv) < 3:
+    print "Requires board_id and sprint_id as inputs"
+    sys.exit(2)
+board_id = sys.argv[1]
+sprint_id = sys.argv[2]
 board_name = 'CCP QA Scrum  - Hyd'
-sprint_id = 1680
+
 print("GreenHopper board: %s (%s)" % (board_name, board_id))
 #sprints = gh.sprints(board_id)
 sprint = gh.sprint_info(board_id, sprint_id)
